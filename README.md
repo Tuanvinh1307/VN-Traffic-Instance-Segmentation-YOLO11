@@ -118,13 +118,6 @@ Chi tiết từng bước, kèm xử lý lỗi thường gặp (thiếu `data.ya
 - Video demo quay ban ngày, điều kiện ánh sáng tốt — chưa kiểm thử ban đêm/trời mưa.
 - Hướng tiếp theo: mở rộng ảnh VN về đêm, thử fine-tune thêm với augmentation mô phỏng mưa/ngược sáng, và benchmark so với YOLO11-seg các size nhỏ hơn (n/s/m) để đánh giá đánh đổi tốc độ–độ chính xác cho triển khai edge.
 
-## Tác giả
-
-- Trang Tuấn Vinh
-- Nguyễn Hoàng Thuận
-
-GVHD: ThS. Lã Như Hải — Khoa Công nghệ Thông tin, HUFLIT.
-
 ## License
 
 MIT — xem [LICENSE](LICENSE).
