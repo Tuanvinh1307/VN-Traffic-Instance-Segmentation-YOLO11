@@ -90,7 +90,7 @@ Raw images (BDD100K + Vietnam images)
 
 ## Setup
 
-Needs Python 3.10–3.12. For training, an NVIDIA GPU with 16GB+ VRAM is recommended (RTX 3090/4090, Colab A100/L4, etc.). For inference only, 4GB+ VRAM or even a CPU works fine.
+Needs Python 3.10–3.12 for training:
 
 ```bash
 git clone https://github.com/Tuanvinh1307/VN-Traffic-Instance-Segmentation-YOLO11.git
@@ -118,11 +118,3 @@ Step-by-step troubleshooting (missing `data.yaml`, CUDA out of memory, missing `
 - The demo video was shot in daylight with good visibility; I haven't tested night driving or rain yet.
 - Next steps I'm planning: add more Vietnamese footage at night, try augmentation that simulates rain/glare, and benchmark the smaller YOLO11-seg variants (n/s/m) to see the speed/accuracy trade-off for edge deployment.
 
-## Author
-
-Trang Tuan Vinh
-Advisor: MSc. La Nhu Hai — Faculty of Information Technology, HUFLIT.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
