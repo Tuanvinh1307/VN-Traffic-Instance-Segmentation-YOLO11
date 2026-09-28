@@ -1,9 +1,6 @@
 # VN-Traffic-Instance-Segmentation-YOLO11
 
 An instance segmentation model that detects and segments vehicles and people in Vietnamese street traffic, built on YOLO11x-seg. Labels were generated semi-automatically with SAM 2, then cleaned up by hand in CVAT.
-
-This started as my graduation thesis project at the Faculty of Information Technology, Ho Chi Minh City University of Foreign Languages - Information Technology (HUFLIT).
-
 ## Demo
 
 ![demo](demo/demo.gif)
